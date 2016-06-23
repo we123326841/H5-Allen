@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#content{
+    height: 50px;
+    width:100%;
+    background-color: aqua;
+}
+
+#content_nei{
+    height: 100%;
+    width: 75%;
+    background-color: bisque;
+    margin: 0px auto;
+}
+
+#main{
+    height: 1900px;
+    width: 75%;
+    margin: 20px auto;
+    background-color: deeppink;
+}
+
+
+#main_nei{
+    height: 50%;
+    width: 100%;
+    background-color: darkcyan;
+}
+
+
+#main_nei1{
+    height: 49%;
+    width: 100%;
+    background-color: coral;
+}
+
+
+#main_nei2{
+    height: 10%;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+
+#bottom{
+    height: 300px;
+    width: 75%;
+    margin: 20px auto;
+    background-color: cornflowerblue;
+
+}
+
+#bottom_nei{
+
+    height: 70%;
+    width: 100%;
+
+    background-color: antiquewhite;
+
+}
+
+
+#bottom_nei1{
+    height: 30%;
+    width: 100%;
+
+    background-color:brown;
+
+}

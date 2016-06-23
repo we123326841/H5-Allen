@@ -1,0 +1,38 @@
+#td{
+    width: 100px;
+    height: 150px;
+    background-color: #40b844;
+    float: left;
+}
+
+#md{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    float: left;
+
+}
+
+#fd{
+    width: 51px;
+    height: 100px;
+    background-color: blueviolet;
+    float: left;
+}
+
+#ffd{
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    float: left;
+}
+
+#content{
+    width: 250px;
+    height: 400px;
+    background-color: antiquewhite;
+}
+
+#text{
+    clear: both;
+}

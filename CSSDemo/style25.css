@@ -1,0 +1,16 @@
+.mydiv{
+    height: 1000px;
+    width: 75%;
+    background-color: #FF00FF;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*!*right: 0px;*!*/
+    /*position: absolute;*/
+    /*left: 50px;*/
+    /*float: left;*/
+    margin: 100px auto;
+}
+
+*{
+    margin: 0px;
+}

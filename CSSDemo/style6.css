@@ -1,0 +1,12 @@
+ul li{
+
+    list-style-type: decimal;
+    /*list-style-image: url("one.png");*/
+}
+
+ul.ul1{
+    list-style-position: inside;
+}
+ul.ul2{
+    list-style-position: outside;
+}

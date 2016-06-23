@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>div布局</title>
+    <style type="text/css">
+        div#container{
+            background-color:aquamarine;
+            width: 100%;
+            height: 900px;
+        }
+
+        /*body{*/
+            /*margin: 0px;*/
+
+        /*}*/
+
+        div#header{
+            width: 100%;
+            height: 10%;
+            background-color: brown;
+        }
+        div#menu{
+            width: 70%;
+            height: 80%;
+            background-color: chartreuse;
+            float: left;
+        }
+        div#body{
+            width: 30%;
+            height: 80%;
+            background-color: fuchsia;
+            float: left;
+        }
+        div#footing{
+            width: 100%;
+            height: 10%;
+            background-color: orangered;
+            clear: both;
+        }
+
+
+    </style>
+</head>
+<body marginwidth="0px" marginheight="0px">
+    <div id="container">
+        <div id="header">头部</div>
+        <div id="menu">内容菜单</div>
+        <div id="body">内容主体</div>
+        <div id="footing">底部</div>
+    </div>
+</body>
+</html>

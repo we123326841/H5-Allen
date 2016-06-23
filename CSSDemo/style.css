@@ -1,0 +1,11 @@
+body{
+    background-color: antiquewhite;
+    background-image: url("one.png");
+}
+
+p{
+    background-image: url("one.png");
+    background-color: aquamarine;
+    width: 200px;
+    padding: 40px;
+}

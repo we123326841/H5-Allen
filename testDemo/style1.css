@@ -1,0 +1,14 @@
+.divclass {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    padding: 20px;
+
+    border: solid;
+    border-width: 10px;
+    border-color: blue;
+    margin: 30px;
+
+}
+
+

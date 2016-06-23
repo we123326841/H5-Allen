@@ -1,0 +1,14 @@
+/*body{*/
+    /*color: aqua;*/
+/*}*/
+p{
+    color: aqua;
+    /*text-align: center;*/
+    text-indent: 2em;
+
+}
+
+h6{
+    text-indent: -2em;
+    padding-left: 2em;
+}

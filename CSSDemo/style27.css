@@ -1,0 +1,35 @@
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #40b844;
+    width: 200px;
+    text-align: center;
+
+}
+
+a:link,a:visited{
+    font-weight: bold;
+    text-decoration: none;
+    background-color: aquamarine;
+    color: #FFFFFF;
+    width:50px;
+    text-align: center;
+
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: #FF0000;
+    color: antiquewhite;
+    width:50px;
+    text-align: center;
+
+}
+
+li{
+    display: inline;
+    padding: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+}

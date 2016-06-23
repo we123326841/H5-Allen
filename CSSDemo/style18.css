@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+}
+.container{
+    margin: 50px;
+}
+.bd{
+    border-style: groove;
+}
+.pd{
+    padding: 10px ;
+}
+
+.content{
+    background-color: #FF00FF;
+}
+
+.container1{
+    margin: 10px;
+}
+.bd1{
+    border-style: groove;
+}
+.pd1{
+    padding: 10px ;
+}
+
+.content1{
+    background-color: #FF00FF;
+}

@@ -1,0 +1,24 @@
+/*p{*/
+    /*!*border-style: double;*!*/
+    /*border-width: 20px;*/
+    /*border-style: dotted;*/
+    /*border-top-style: double;*/
+    /*border-bottom-width: 10px;*/
+    /*border-color: aqua;*/
+/*}*/
+p{
+    border-radius: 15px;
+    background-color: aqua;
+    text-align: center;
+    width: 300px;
+    border: 2px solid #FF0000;
+
+}
+
+.divclass{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    box-shadow: 10px 30px 5px #FF00FF;
+}

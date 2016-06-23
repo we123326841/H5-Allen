@@ -1,0 +1,21 @@
+.pclass{
+    /*max-width: 230px;*/
+    min-width: 230px;
+    line-height: normal;
+    cursor: alias;
+}
+
+.pclass2{
+    width: 200px;
+    line-height: 50%;
+}
+
+.pclass3{
+    width: 200px;
+    line-height: 200%;
+}
+
+li{
+    display: inline;
+    visibility: hidden;
+}

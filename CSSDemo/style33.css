@@ -1,0 +1,5 @@
+div{
+    column-count: 4;
+    column-gap: 60px;
+    column-rule: 5px outset #FF0000;
+}

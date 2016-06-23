@@ -1,0 +1,18 @@
+#p1{
+    text-transform: capitalize;
+}
+#p2{
+    text-transform: lowercase;
+}
+#p3{
+    text-transform: uppercase;
+}
+
+#p4{
+    text-shadow: 30px 10px 0px #FF0000;
+}
+
+#p5{
+    width:300px;
+    text-wrap: avoid;
+}

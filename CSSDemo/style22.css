@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+#div1{
+    width: 950px;
+    height: auto;
+    margin: 20px auto;
+    background-color: #40b844;
+}
+
+ul{
+    width: 350px;
+    float: left;
+}

@@ -1,0 +1,14 @@
+.divclass{
+
+    background-color: #FF00FF;
+    margin: 30px;
+    padding: 40px;
+    width:70px;
+    height: 70px;
+    border-style: groove;
+
+}
+
+body{
+    margin: 0px;
+}

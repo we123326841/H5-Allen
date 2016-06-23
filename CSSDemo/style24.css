@@ -1,0 +1,7 @@
+h1> strong{
+    color: #40b844;
+}
+
+p + p {
+    color: cornflowerblue;
+}

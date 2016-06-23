@@ -1,0 +1,31 @@
+/*#tb th{*/
+    /*border: 1px solid blue;*/
+    /*text-align: center;*/
+
+/*}*/
+
+/*#tb{*/
+    /*width: 400px;*/
+    /*height:400px;*/
+    /*border-collapse: collapse;*/
+    /*background-color:aquamarine ;*/
+/*}*/
+#tb{
+    border-collapse:collapse;
+    width: 500px;
+}
+
+#tb th ,#tb td{
+    border: 1px solid antiquewhite;
+    padding: 40px;
+}
+
+#tb th{
+    text-align:right;
+    background-color: aqua;
+    color: #FFFFFF;
+}
+#tb tr.alt td{
+    color: black;
+    background-color: #FF0000;
+}
