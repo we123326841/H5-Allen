@@ -29,11 +29,12 @@ body{
 }
 .nav_content{
     float: left;
+
 }
 
 .nav_title{
     float: left;
-    background-color: darkgray;
+
     padding-top: 30px;
     padding-bottom: 30px;
     color: antiquewhite;
@@ -42,13 +43,70 @@ body{
 }
 
 ul{
-    margin-left: 20px;
-    margin-top: 30px;
-    background-color: cadetblue;
-    margin-bottom: 30px;
+
+    margin-left: 90px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+li{
+    display: inline;
+    list-style-type: none;
+
+    margin-left: 10px;
+    background-color: antiquewhite;
+
+}
+a:link , a:visited{
+    text-decoration: none;
+    color: #40b844;
+    font-weight: bold;
+
 }
 
-li{
-    text-decoration: none;
-    list-style-type: none;
+a:hover ,a:active{
+    color: #FF0000;
+}
+.img{
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    float: right;
+}
+
+.text{
+
+    float: right;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.img img{
+    border-radius: 30px;
+    display: inline;
+    width: 26px;
+    height: 26px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    float: right;
+
+}
+
+form input{
+    height: 20px;
+    border-radius: 30px;
+}
+
+.body h3{
+    padding-top: 30px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.body p{
+    padding-top: 30px;
+    text-align: center;
+    width: auto;
+    height: auto;
 }
