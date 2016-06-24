@@ -1,0 +1,67 @@
+那测试环境就是开发过程调试用的服务器了 是吧
+kiss the rain  10:00:35
+不是手表
+kiss the rain  10:00:45
+真心约炮啊
+Xcode  10:00:50
+不知道
+Xcode  10:01:10
+开发环境 跟 测试环境 是一个概念吧
+kiss the rain  10:01:12
+开发环境
+测试环境
+生产环境
+kiss the rain  10:01:17
+一共三个环境
+Xcode  10:01:18
+哦
+kiss the rain  10:01:28
+开发是我们开发人员用的
+kiss the rain  10:01:34
+测试是jim用的
+kiss the rain  10:01:47
+生产是线上客户用电
+kiss the rain  10:01:49
+的
+Xcode  10:01:54
+嗯
+Xcode  10:02:11
+测试就是调试用的服务器?
+kiss the rain  10:02:28
+不是
+kiss the rain  10:02:46
+开发环境 就是调试的环境
+Xcode  10:03:10
+测试环境 就是测试的环境
+kiss the rain  10:03:14
+测试是 你开发好了 调试好了的项目部署到测试环境 给测试人员用
+kiss the rain  10:03:18
+嗯嗯
+Xcode  10:03:26
+明白了
+kiss the rain  10:03:54
+
+Xcode  10:04:10
+厉害
+Xcode  10:05:34
+这三个环境 都是指的搭建的服务器环境?
+kiss the rain  10:05:49
+嗯嗯
+kiss the rain  10:05:54
+三台服务器
+Xcode  10:06:06
+一台一个环境?
+kiss the rain  10:06:13
+
+Xcode  10:06:17
+哦哦
+Xcode  10:06:37
+111是开发
+kiss the rain  10:06:55
+嗯嗯
+kiss the rain  10:07:00
+120是测试
+kiss the rain  10:07:05
+112是生产
+Xcode  10:07:21
+json适合当老师

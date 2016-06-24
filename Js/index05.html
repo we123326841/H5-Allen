@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>条件语句</title>
+</head>
+<body>
+    <script>
+        var i = 19;
+        if(i<32){
+            document.write(i+"haha");
+        }else{
+            document.write(i+"dad");
+        }
+    </script>
+
+    <script>
+        var j = 322;
+        switch(j){
+            case 2 :
+                document.write("个哈哈");
+                break;
+            case 32:
+                    document.write("你你你");
+
+                break;
+
+            default:
+                document.write("default");
+                break;
+        }
+    </script>
+
+
+    <script>
+        var p = [2,3,4,5,6,7,8];
+        for(var w =0;w<7;w++){
+            document.write(p[w]+",");
+        }
+
+        for(var k in p){
+            document.write(k);
+        }
+    </script>
+
+    <script>
+        document.write("------------------------");
+        var k = 9;
+        while (k<13){
+            document.write("k="+k+"<br>");
+            k++;
+        }
+
+
+        document.write("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+        var l = 9;
+        do{
+            document.write("lll==="+l);
+        }while (k>19);
+
+        document.write(",.,.,.,.,.,.,.,.,.,.,.,");
+
+        for(var u = 0 ; u< 10; u++){
+            if(u==5){
+//                break;
+                    continue;
+            }
+            document.write(u+"<br>");
+        }
+
+    </script>
+
+</body>
+</html>
