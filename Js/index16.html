@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>日期</title>
+</head>
+<body onload="startTime()">
+<p id="pid"></p>
+<script>
+//    date = new Date();
+//    document.write(date);
+//    document.write(date.getFullYear()+"<br>");
+//    document.write(date.getTime());
+//    date.setFullYear(2013);
+//    date.setFullYear(2011);
+//    document.write(date);
+
+    function startTime(){
+        var date = new Date();
+       var hour = date.getHours();
+        var minu = date.getMinutes();
+        var sec = date.getSeconds();
+        minu = checkTime(minu);
+        sec = checkTime(sec);
+        document.getElementById("pid").innerHTML = hour + ":" + minu + ":" + sec ;
+        setTimeout(startTime,500);
+    }
+
+
+
+
+    function checkTime(i){
+        if(i<10){
+            i = "0"+i;
+        }
+        return i;
+    }
+</script>
+</body>
+</html>

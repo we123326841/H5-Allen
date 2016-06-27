@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>中国造反</title>
+</head>
+<body>
+<script>
+    var a = ["allen","Irene","jack"];
+    var b = ["打我打我","我的"];
+
+    var c= a.concat(b)
+
+    document.write(c);
+
+
+    var d = ["w","d","a","b","c"];
+    document.write(d.sort());
+
+    var e = ["w","d","a","b","c"];
+
+    document.write(e.sort(function(a,b){
+        return a > b;
+    }))
+
+    var f = ["a","b","c"];
+
+    f.push("f");
+
+    document.write(f.reverse());
+    document.write(f);
+
+
+</script>
+    </body>
+</html>
