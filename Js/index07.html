@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>异常</title>
+</head>
+<body>
+<form>
+    <input id="txt" type="text">
+    <input id="button" type="button" value="按钮唷" onclick="demo()">
+</form>
+<script>
+    //    function demo(){
+    //        str = "dede";
+    //       // alert(str);
+    //    }
+    ////    demo();
+    //    try{
+    //    document.write(str);
+    //    }catch (err){
+    //        document.write("鸡巴蝻子毛"+err);
+    //    }
+
+
+    function demo() {
+        var str = document.getElementById("txt").value;
+        try {
+
+            if (str == "") {
+                throw "日你妈的逼是个逼空的咧";
+            }
+        }
+        catch
+                (err) {
+            document.write(err+"haha");
+        }
+    }
+
+</script>
+
+
+</body>
+</html>

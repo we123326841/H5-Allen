@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件处理</title>
+</head>
+<body>
+<button id="btn">按钮</button>
+<button id="btn1">按钮1</button>
+<button id="btn2">按钮2</button>
+<button id="btn3">按钮3</button>
+<button id="btn4">按钮4</button>
+<script>
+   var btn1 = document.getElementById("btn");
+    btn1.onclick = function  demo() {
+        alert("你麻痹");
+    }//被覆盖
+
+   btn1.onclick = function  demo2(a,b) {
+       alert("你麻痹2"+a);
+   }
+
+
+   btn1.onclick(12,32);
+ //  btn1.onclick= null;
+
+
+   if(btn1.onclick){
+       alert("Irene");
+   }else{
+       alert("嘻嘻嘻");
+   }
+
+   var btn2 = document.getElementById("btn1");
+    btn2.addEventListener("click",demo3);
+   btn2.addEventListener("click",demo4);
+   btn2.removeEventListener("click",demo4);
+
+
+
+
+
+    function demo3(){
+        alert("demo3");
+    }
+
+    function  demo4(){
+        alert("demo4");
+    }
+
+
+   var btn3 = document.getElementById("btn2");
+
+    btn3.addEventListener("click",function demo5(){alert("加吧")});
+    btn3.addEventListener("click",function demo6(){alert("蝻子")});
+
+   var btn4 = document.getElementById("btn3")
+    if(btn4.addEventListener){
+        alert("1");
+        btn4.addEventListener("click",demo5);
+    }else if(btn4.attachEvent){
+        alert("2");
+        btn4.attachEvent("onclick",demo5);
+    }else{
+        alert("3");
+        btn4.onclick = demo5();
+    }
+
+    function demo5(){
+        alert("demo5哈哈哈哈");
+    }
+
+
+
+
+</script>
+
+</body>
+</html>

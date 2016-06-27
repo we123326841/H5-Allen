@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件</title>
+</head>
+<body>
+<div id="divid">
+<button id="btn1">按钮1</button>
+<button id="btn2" >按钮2</button>
+    <a id="aid" href="http://www.baidu.com">点击点击</a>
+</div>
+    <script>
+       var btn1 = document.getElementById("btn1");
+        btn1.addEventListener("click",demo);
+       var divId = document.getElementById("divid");
+       divId.addEventListener("click",divdemo);
+       var aId = document.getElementById("aid");
+       aId.addEventListener("click",ademo);
+
+
+
+        function demo(event){
+            alert("button"+event.type);
+            event.target.style.background = "red";
+            event.stopPropagation();//阻止冒泡事件
+        }
+
+        function  divdemo(event){
+            alert("div"+event.type);
+        }
+
+
+        function ademo(event){
+            alert("a"+event.type);
+            event.stopPropagation();
+            event.preventDefault();
+        }
+    </script>
+</body>
+</html>

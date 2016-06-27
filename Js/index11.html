@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>监听事件</title>
+</head>
+<body>
+<button id="btn">按钮</button>
+<button id="de" onclick="demo1()">鸡巴</button>
+<script>
+    var i = 10;
+   var ele = document.getElementById("btn");
+    ele.addEventListener("click",demo1);
+    ele.addEventListener("click",demo2);
+    ele.removeEventListener("click",demo1);
+    function demo1(a,b){
+        alert("鸡巴毛"+a);
+    }
+
+
+    function demo2(a,b){
+        alert("鸡巴毛2"+a);
+    }
+
+
+</script>
+
+</body>
+</html>

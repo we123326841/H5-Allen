@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鼠标事件</title>
+    <link href="style08.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="onLoad()">
+<div class="divclass" onmouseover="onOver(this)" onmouseout="onOut(this)"></div>
+<form>
+    <input type="button" value="你麻痹" onclick="demo()">
+    <input type="text" onchange="onChange()">
+    <input type="text" onchange="alert('搞逼不脱裤子')">
+    <input type="text" onselect="onSelect(this)" onfocus="onFocus(this)">
+</form>
+<script>
+    function  demo() {
+
+        alert('点击');
+    }
+
+    function  onOut(obj){
+        obj.innerHTML = "移除了哟";
+    }
+
+    function  onOver(obj){
+        obj.innerHTML = "进入了哟";
+    }
+
+    function  onChange(){
+        alert("改变了哟")
+    }
+
+    function  onSelect(obj){
+        obj.style.background = "red";
+    }
+
+    function onFocus(oobj){
+        oobj.style.background = "yellow";
+    }
+
+    function  onLoad(){
+        alert("网页加载完毕");
+    }
+
+</script>
+
+</body>
+</html>
