@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>属性</title>
+</head>
+<body>
+<p name="pn">Hello</p>
+<p name="pn">Hello</p>
+<p name="pn">Hello</p>
+<p name="pn">Hello</p>
+<a id="aid" title="日你妈的比">你他妈的</a>
+<a id="aid2" title="彪子样的">你他妈的鸡巴</a>
+<ul><li>1</li><li>2</li><li>3</li><li>绯闻绯闻</li></ul>
+<div id="divid">
+    <h4 id="pid">你他妈的不想搞的给我滚</h4>
+</div>
+<script>
+    function getName(){
+      var pns = document.getElementsByName("pn");
+        alert(pns.length);
+        alert(pns[0].innerHTML);
+        pns[0].innerHTML = "JIBA";
+        pns[3].innerHTML = "测";
+    }
+
+
+    function getNameTag(){
+        var pns = document.getElementsByTagName("p");
+        alert(pns.length);
+        alert(pns[0].innerHTML);
+        pns[0].innerHTML = "JIBA";
+        pns[3].innerHTML = "测";
+    }
+
+   // getNameTag();
+
+
+   // getName();
+
+
+    function  getAttri(){
+        var pns = document.getElementById("aid");
+         var title = pns.getAttribute("title");
+        var id = pns.getAttribute("id");
+        alert(title + id);
+    }
+
+//    getAttri();
+
+
+    function setAttri(){
+        var pns =document.getElementById("aid2");
+        alert(pns.getAttribute("title"));
+        pns.setAttribute("title","尼玛搞逼");
+
+        alert(pns.getAttribute("title"));
+    }
+
+//    setAttri();
+
+    function getChildNode() {
+        try {
+
+            var pns = document.getElementsByTagName("ul")[0].childNodes;
+
+            alert(pns.length);
+            alert(pns[3].nodeType);
+        } catch (err) {
+            alert(err);
+        }
+    }
+//    getChildNode();
+
+
+    function getFatherNode(){
+      var h = document.getElementById("pid");
+    //    alert(h.innerHTML);
+      // var h4s = document.getElementsByTagName("h4")[0];
+       // alert(h4s.innerHTML);
+       alert(h.parentNode.nodeName);
+    }
+
+//    getFatherNode();
+
+
+    function addChild(){
+        var body =   document.body;
+        var input = document.createElement("input");
+        input.type = "button";
+        input.value = "尼玛搞逼";
+        body.appendChild(input);
+    }
+//    addChild();
+
+    function addNode(){
+       var divId= document.getElementById("divid");
+        var pid = document.getElementById("pid");
+        var p = document.createElement("p");
+        p.innerHTML = "你他爸的逼";
+        divId.insertBefore(p,pid);
+
+    }
+//    addNode();
+
+
+    function removeNode(){
+        var divId= document.getElementById("divid");
+        alert(divId.childNodes[1].innerHTML);
+        divId.removeChild(divId.childNodes[1]);
+
+    }
+
+//    removeNode();
+
+
+    function getSize(){
+        var width = document.documentElement.offsetHeight||document.body.offsetWidth;
+        var height = document.documentElement.offsetWidth||document.body.offsetHeight
+
+        var i = null||43;
+        alert(width+","+height+","+i);
+    }
+    getSize();
+</script>
+
+</body>
+</html>

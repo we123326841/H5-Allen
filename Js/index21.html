@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计时器</title>
+</head>
+<body>
+<button onclick="stop()">按钮</button>
+<p id="ptime"></p>
+<script>
+
+
+//    function getjiba(){
+//        alert("你麻痹");
+//    }
+//
+//    window.getjiba();
+
+
+//   var interval = setInterval(getTime,1000);
+//
+//    function getTime(){
+//        var d = new Date();
+//        var t = d.toLocaleTimeString();
+//        document.getElementById("ptime").innerHTML = t;
+//    }
+//
+//    function  stopTime(){
+//        clearInterval(interval);
+//    }
+
+
+
+
+
+
+
+    function getTime(){
+        var d = new Date();
+        var t = d.toLocaleTimeString();
+        document.getElementById("ptime").innerHTML = t;
+       gege额 = setTimeout(getTime,1000);
+
+    }
+    getTime();
+
+    function stop(){
+        clearTimeout(gege额);
+    }
+
+
+</script>
+</body>
+</html>
