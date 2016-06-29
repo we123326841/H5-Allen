@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>赫赫</title>
+</head>
+<body>
+<form>
+    <input type="text" id="username">
+</form>
+
+<button onclick="submit()">提交</button>
+
+
+<script>
+    function submit() {
+        var v = document.getElementById("username").value;
+        if (v == "hello") {
+
+            history.go(-1);
+
+        }
+    }
+</script>
+</body>
+</html>
