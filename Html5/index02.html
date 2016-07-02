@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>视频播放</title>
+</head>
+<body>
+<button onclick="demo()">播放/暂停</button>
+<button onclick="scale()">放大</button>
+<button onclick="suoxiaoe()">缩小</button>
+<br/>
+<video id="video" width="500px" height="500px">
+    <source src="raw/3.mp4">
+    <source src="raw/3.ogg">您的浏览器不支持
+</video>
+
+<script>
+    var video = document.getElementById("video");
+    function demo(){
+        if (video.paused){
+            video.play();
+        }else{
+            video.pause();
+
+        }
+    }
+
+    function scale(){
+        video.width = 800;
+        video.height = 800;
+    }
+
+
+    function suoxiaoe(){
+        video.width = 300;
+        video.height = 300;
+    }
+</script>
+
+</body>
+</html>

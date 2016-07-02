@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e5a4b69-58de-407a-b14d-1ae5ab9523e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Html5/index01.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Html5/index02.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="H5.iws" />
@@ -36,11 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index01.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index01.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Html5/index01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59585494">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state vertical-scroll-proportion="-8.75">
+              <caret line="14" column="99" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index02.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Html5/index02.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.45595855">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -137,6 +146,7 @@
         <option value="$PROJECT_DIR$/Js/index29.html" />
         <option value="$PROJECT_DIR$/Js/style29.js" />
         <option value="$PROJECT_DIR$/Html5/index01.html" />
+        <option value="$PROJECT_DIR$/Html5/index02.html" />
       </list>
     </option>
   </component>
@@ -156,8 +166,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="62" />
-    <option name="y" value="23" />
+    <option name="x" value="112" />
+    <option name="y" value="113" />
     <option name="width" value="1260" />
     <option name="height" value="721" />
   </component>
@@ -691,15 +701,15 @@
       <workItem from="1467423163356" duration="15000" />
       <workItem from="1467423789174" duration="198000" />
       <workItem from="1467423996847" duration="147000" />
-      <workItem from="1467424165606" duration="698000" />
+      <workItem from="1467424165606" duration="1746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93669000" />
+    <option name="totallyTimeSpent" value="94717000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="23" width="1260" height="721" extended-state="0" />
+    <frame x="112" y="113" width="1260" height="721" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -764,13 +774,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Js/index02.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Js/index01.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.2083335">
@@ -1119,8 +1122,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Html5/index01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59585494">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="14" column="99" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Html5/index02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45595855">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding />
         </state>
       </provider>
