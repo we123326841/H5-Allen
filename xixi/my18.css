@@ -2,7 +2,15 @@
     margin-bottom: 20px;
 }
 
-.row .row{
-    margin-bottom: 0px;
-    margin-top: 10px;
+/*.row .row{*/
+    /*margin-bottom: 0px;*/
+    /*margin-top: 10px;*/
+/*}*/
+[class*="col-"]{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /*background-color: #eee;*/
+    background-color: rgba(86,61,124,.15);
+    /*border: 1px solid #dddddd;*/
+    border: 1px solid rgba(86,61,124,.2);
 }
