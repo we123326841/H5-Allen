@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="my07.js"></script>
+    <style>
+        div{
+            background-color: #c1e2b3;
+            height: 20px;
+            width: 20px;
+            float: left;
+            margin-left: 2px;
+        }
+    </style>
+</head>
+<body>
+<p>hello</p>
+<button id="hide">隐藏</button>
+<button id="show">显示</button>
+<button id="toogle">显示/隐藏</button>
+
+<script>
+    for(var i = 0;i<5;i++){
+        $("<div>").appendTo(document.body);
+        $("div").click(function(){
+            $(this).hide(1000,function(){
+                $(this).remove();
+            });
+         //   demo();
+        });
+    }
+
+
+    function demo(){
+        alert("呵呵");
+    }
+</script>
+</body>
+</html>
