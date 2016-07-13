@@ -2,37 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e5a4b69-58de-407a-b14d-1ae5ab9523e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/index05.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/index06.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/index07.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/index08.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/index09.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/index10.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/index11.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/index12.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/index13.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/index14.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/index15.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/index16.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/index17.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/index18.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/index19.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my05.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my06.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my07.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my08.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my09.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my10.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my11.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my12.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my13.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my14.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my15.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my15.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my16.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my17.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my18.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my19.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/ExtendsJQuery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/index20.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/index21.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my20.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my21.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jquery/my21.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testDemo/index6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testDemo/index7.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="H5.iws" />
@@ -61,35 +38,47 @@
     <favorites_list name="H5" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index18.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Jquery/index18.html">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index21.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Jquery/index21.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state vertical-scroll-proportion="-55.625">
+              <caret line="89" column="10" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index19.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Jquery/index19.html">
+      <file leaf-file-name="my21.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Jquery/my21.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.75">
-              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my19.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Jquery/my19.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17948718">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.22998296">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my20.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Jquery/my20.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my21.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Jquery/my21.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.625">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,8 +89,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -116,14 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/xixi/index15.html" />
-        <option value="$PROJECT_DIR$/xixi/my14.js" />
-        <option value="$PROJECT_DIR$/xixi/my16.css" />
-        <option value="$PROJECT_DIR$/xixi/index16.html" />
-        <option value="$PROJECT_DIR$/xixi/index17.html" />
-        <option value="$PROJECT_DIR$/xixi/my17.css" />
-        <option value="$PROJECT_DIR$/xixi/my18.css" />
-        <option value="$PROJECT_DIR$/xixi/my18.js" />
         <option value="$PROJECT_DIR$/xixi/index18.html" />
         <option value="$PROJECT_DIR$/xixi/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/xixi/index19.html" />
@@ -167,6 +148,14 @@
         <option value="$PROJECT_DIR$/Jquery/my18.js" />
         <option value="$PROJECT_DIR$/Jquery/index19.html" />
         <option value="$PROJECT_DIR$/Jquery/my19.js" />
+        <option value="$PROJECT_DIR$/testDemo/index6.html" />
+        <option value="$PROJECT_DIR$/Jquery/ExtendsJQuery.js" />
+        <option value="$PROJECT_DIR$/Jquery/index20.html" />
+        <option value="$PROJECT_DIR$/Jquery/my20.js" />
+        <option value="$PROJECT_DIR$/testDemo/index7.html" />
+        <option value="$PROJECT_DIR$/Jquery/my21.css" />
+        <option value="$PROJECT_DIR$/Jquery/index21.html" />
+        <option value="$PROJECT_DIR$/Jquery/my21.js" />
       </list>
     </option>
   </component>
@@ -186,8 +175,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-21" />
-    <option name="y" value="23" />
+    <option name="x" value="97" />
+    <option name="y" value="278" />
     <option name="width" value="1260" />
     <option name="height" value="705" />
   </component>
@@ -216,9 +205,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,48 +223,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="H5-Allen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="H5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="H5-Allen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xixi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="H5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="H5-Allen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="L02_Heading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="H5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="H5-Allen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -761,15 +708,18 @@
       <workItem from="1468069921333" duration="840000" />
       <workItem from="1468120942155" duration="2162000" />
       <workItem from="1468200728569" duration="22036000" />
-      <workItem from="1468247651749" duration="847000" />
+      <workItem from="1468247651749" duration="1307000" />
+      <workItem from="1468249106630" duration="831000" />
+      <workItem from="1468306810338" duration="1713000" />
+      <workItem from="1468309300247" duration="3047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147991000" />
+    <option name="totallyTimeSpent" value="154042000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-21" y="23" width="1260" height="705" extended-state="0" />
+    <frame x="97" y="278" width="1260" height="705" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -783,7 +733,6 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24958949" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -795,6 +744,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -844,102 +794,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Js/style26.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Js/style27.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Js/style28.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Js/style29.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.375">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Js/two.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Js/style29.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xixi/my.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xixi/my6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xixi/my7.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xixi/my8.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xixi/my9.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xixi/my12.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xixi/my14.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xixi/my13.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xixi/my18.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09983361">
@@ -958,7 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.125">
           <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -973,7 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75">
           <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1009,7 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.375">
           <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1024,10 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.875">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1035,7 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23396881">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1043,7 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36395147">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,7 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75">
           <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1080,14 +924,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.625">
           <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jquery/jquery-2.1.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6585367">
-          <caret line="2" column="30974" selection-start-line="2" selection-start-column="30974" selection-end-line="2" selection-end-column="30974" />
         </state>
       </provider>
     </entry>
@@ -1102,7 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.5">
           <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1110,7 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.125">
           <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1153,7 +987,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.125">
           <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1161,7 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1169,13 +1001,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.25">
           <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1183,7 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.875">
           <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,9 +1027,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jquery/index18.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
+        <state vertical-scroll-proportion="0.0">
           <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jquery/my19.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17887564">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1213,14 +1046,104 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.75">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jquery/ExtendsJQuery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17887564">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jquery/index20.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CSSDemo/img/five.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jquery/img/four.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jquery/img/five.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jquery/img/one.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jquery/img/six.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jquery/img/three.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jquery/img/two.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testDemo/index6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jquery/my19.js">
+    <entry file="file://$PROJECT_DIR$/testDemo/index7.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17948718">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.18650089">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jquery/index21.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-55.625">
+          <caret line="89" column="10" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jquery/my21.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jquery/my20.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jquery/my21.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22998296">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
