@@ -40,7 +40,7 @@ function checkFlag(){
     //console.log(lastContentHeight+","+scrollTop+","+pageHeight);
     if(lastContentHeight<scrollTop + pageHeight){
         console.log("打印");
-        return true;
+        //return true;
     }
 }
 

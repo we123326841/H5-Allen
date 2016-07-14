@@ -1,7 +1,8 @@
 /**
  * Created by wanghao on 16/7/12.
  */
-$(document).ready(function(){
-    $.myjq();
-    $("div").myjq();
+var myJ = $.noConflict();
+myJ(document).ready(function(){
+    myJ.myjq();
+    myJ("div").myjq();
 });
