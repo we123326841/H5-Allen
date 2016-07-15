@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="jquery-ui.min.css" type="text/css">
+    <script>
+        $(function(){
+            $("#btn").on("click",function(){
+
+                    $("#divclass").dialog();
+
+            });
+        })
+    </script>
+</head>
+<body>
+<div id="divclass">
+    <p>搞逼不脱裤子</p>
+</div>
+<button id="btn">弹出对话框</button>
+</body>
+</html>
