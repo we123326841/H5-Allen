@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="jquery-ui.min.css" type="text/css">
+    <script src="my33.js"></script>
+    <style>
+        #menu{
+            width: 400px;
+        }
+
+        .ui-menu:after{
+            content: ".";
+            display: block;
+            clear: both;
+            visibility: hidden;
+            line-height: 0;
+            height: 0;
+        }
+
+        .ui-menu .ui-menu-item{
+            display: inline-block;
+            float: left;
+            margin: 0;
+            padding: 10px;
+            width: auto;
+        }
+
+    </style>
+</head>
+<body>
+<ul id="menu">
+    <li>
+    <a href="#">哈哈</a>
+    <ul>
+        <li>哈哈1</li>
+        <li>哈哈2</li>
+        <li>哈哈3</li>
+        <li>哈哈4</li>
+    </ul>
+    </li>
+    <li><a href="#">忽忽</a>
+        <ul>
+            <li>忽忽1</li>
+            <li>忽忽2</li>
+            <li>忽忽3</li>
+            <li>忽忽4</li>
+        </ul>
+    </li>
+    <li><a  href="#">嘻嘻</a>
+    <ul>
+        <li>嘻嘻1</li>
+        <li>嘻嘻2</li>
+        <li>嘻嘻3</li>
+        <li>嘻嘻4</li>
+    </ul>
+
+    </li>
+    <li>
+        <a  href="#">吼吼</a>
+        <ul>
+            <li>吼吼1</li>
+            <li>吼吼2</li>
+            <li>吼吼3</li>
+            <li>吼吼4</li>
+        </ul>
+
+    </li>
+</ul>
+
+</body>
+</html>
