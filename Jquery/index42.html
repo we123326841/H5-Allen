@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="jquery.mobile-1.4.5.min.js"></script>
+    <link href="jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<ul data-role="listview">
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+    <li>d</li>
+</ul>
+
+
+<ol data-role="listview">
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+    <li>d</li>
+</ol>
+
+
+<ul data-role="listview">
+    <li><a href="#">a</a></li>
+    <li><a href="#">b</a></li>
+    <li><a href="#">c</a></li>
+    <li><a href="#">d</a></li>
+</ul>
+
+
+<ul data-role="listview" data-filter="true" data-inset="true">
+    <li><a href="#">a</a></li>
+    <li><a href="#">a</a></li>
+    <li><a href="#">b</a></li>
+    <li><a href="#">b</a></li>
+    <li><a href="#">b</a></li>
+    <li><a href="#">c</a></li>
+    <li><a href="#">d</a></li>
+</ul>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<form class="ui-filterable">
+    <input id="autoinput" data-type="search">
+</form>
+<ul data-role="listview" data-filter="true"  data-input="#autoinput" data-inset="true">
+    <li><a href="#">a</a></li>
+    <li><a href="#">a</a></li>
+    <li><a href="#">b</a></li>
+    <li><a href="#">b</a></li>
+    <li><a href="#">b</a></li>
+    <li><a href="#">c</a></li>
+    <li><a href="#">d</a></li>
+</ul>
+<br>
+<br>
+<br>
+<br>
+<br>
+<ul data-role="listview" data-filter="true" data-autodividers="true" data-inset="true">
+    <li><a href="#">acmac</a></li>
+    <li><a href="#">a</a></li>
+    <li><a href="#">bq</a></li>
+    <li><a href="#">b</a></li>
+    <li><a href="#">b</a></li>
+    <li><a href="#">cw</a></li>
+    <li><a href="#">d</a></li>
+</ul>
+
+</body>
+</html>
