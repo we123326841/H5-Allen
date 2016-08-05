@@ -45,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/CreateJs/index05.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.3197158">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
               <folding>
                 <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -765,12 +765,12 @@
       <workItem from="1470315485529" duration="2076000" />
       <workItem from="1470319040373" duration="3425000" />
       <workItem from="1470358256290" duration="13098000" />
-      <workItem from="1470387329711" duration="2201000" />
+      <workItem from="1470387329711" duration="2286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230047000" />
+    <option name="totallyTimeSpent" value="230132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="39" width="1260" height="705" extended-state="0" />
@@ -1246,7 +1246,7 @@
     <entry file="file://$PROJECT_DIR$/CreateJs/index05.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3197158">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
           <folding>
             <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
