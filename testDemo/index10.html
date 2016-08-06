@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+var person = {name:"du"};
+    alert(person.name);
+    alert(person["name"]);
+
+
+
+function fun(){
+    alert("good");
+    var age = 1;
+    this.name = 'Mr S.G';
+    this.method = fun2;
+}
+function fun2(){
+    alert("this is the second method show");
+}
+
+
+var hh = new fun2();
+
+
+function fun1(){
+    var obj = new fun();
+    alert(obj.name);
+    obj.method();
+    alert(obj.age);
+}
+
+    fun1();
+</script>
+//在JavaScript中，任何合法的函数都可以作为对象的构造函数  任何函数都可以new
+</body>
+</html>

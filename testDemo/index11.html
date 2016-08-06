@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+
+    //test1();
+     //   test2();
+//    test3();
+
+//    test4();
+   // test5();
+//    test6();
+    test7();
+    function test1(){
+       function Person(){}
+       Person.prototype.name="Nicholas";
+       Person.prototype.age=29;
+       Person.prototype.job="Softwar Enginear"
+       Person.prototype.sayName=function(){
+           alert(this.name);
+       };
+       var person1=new Person();
+       person1.name = "鸡巴";
+       person1.sayName();
+
+
+       var person2 = new Person();
+       person2.sayName();
+   }
+
+
+    function test2(){
+        function SuperType(){
+            this.nimabi = "你麻痹";
+        }
+
+        SuperType.prototype.getNImabi = function(){
+            alert("你麻痹");
+        }
+
+        function SubType(){
+            this.getNImabi = function(){
+                alert("你这个鸡巴");
+            }
+        }
+
+        SubType.prototype = new SuperType();
+        var subType  = new SubType();
+        subType.getNImabi();
+    }
+
+
+    function test3(){
+       function SuperType(name){
+           this.name = name;
+       }
+
+        function SubType(name){
+            this.age = 23;
+            SuperType.call(this,name);
+        }
+
+        var sub = new SubType("鸡巴");
+        alert(sub.name);
+        alert(sub.constructor);
+        alert(SubType.prototype.constructor);
+
+    }
+
+    function  test4(){
+
+        function  Person(name){
+            this.name = name;
+            this.showMsg = function(){
+                alert("show me the money");
+            }
+
+        }
+
+        var p = new Person("鸡巴");
+        alert(p.constructor);
+        alert(Person.prototype.constructor);
+
+
+        function SubPer(){
+
+        }
+
+        SubPer.prototype = p;
+        SubPer.prototype.constructor = SubPer;
+        var sub = new SubPer();
+        alert(sub.name);
+        sub.showMsg();
+        alert(sub.constructor);
+        alert(SubPer.prototype.constructor);
+        alert(p.constructor)
+        alert(Person.prototype.constructor);
+    }
+
+
+    function  test5(){
+        //组合继承
+        function SuperType(name){
+            this.name=name;
+        }
+        SuperType.prototype.sayName=function(){
+            alert(this.name);
+        }
+        function SubType(name){
+            //第二次调用超类构造函数
+            SuperType.call(this,name);
+            this.age=22;
+        }
+        //第一次调用超类构造函数
+        SubType.prototype=new SuperType();
+        SubType.prototype.constructor=SubType
+        var instance=new SubType("dudu");
+        instance.sayName();//dudu
+        alert(instance.constructor);
+
+    }
+
+    function test6(){
+        function SuperType(name){
+            this.name=name;
+        }
+        SuperType.prototype.sayName=function(){
+            alert(this.name);
+        }
+        function SubType(name){
+            SuperType.call(this,name);
+            this.age=22;
+        }
+        function inheritPrototype(subtype,supertype){
+            var prototype=supertype.prototype;//创建原型对象
+            prototype.constructor=subtype;//增强对象
+            subtype.prototype=prototype;//指定对象
+        }//完成仅对超类原型对象的复制。
+        inheritPrototype(SubType,SuperType);
+        var instance=new SubType("dudu");
+        instance.sayName();//dudu
+
+    }
+
+    function test7(){
+        function SuperType(){
+//            this.showMsg = function(){
+//                alert("你麻痹");
+//            }
+        }
+        SuperType.prototype.showMsg = function(){
+                alert("你麻痹");
+            }
+
+        function SubType(){
+
+        }
+        SubType.prototype = SuperType.prototype;
+//        SubType.prototype.constructor = SubType;
+//        SubType.prototype = new SuperType();
+        var s = new SubType();
+        s.showMsg();
+    }
+</script>
+</body>
+</html>

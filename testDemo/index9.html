@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--<script>-->
+    <!--function People(name)-->
+    <!--{-->
+        <!--this.name=name;-->
+        <!--//对象方法-->
+        <!--this.Introduce=function(){-->
+            <!--alert("My name is "+this.name);-->
+        <!--}-->
+    <!--}-->
+    <!--//类方法-->
+    <!--People.Run=function(){-->
+        <!--alert("I can run");-->
+    <!--}-->
+    <!--//原型方法-->
+    <!--People.prototype.IntroduceChinese=function(){-->
+        <!--alert("我的名字是"+this.name);-->
+    <!--}-->
+
+
+
+    <!--//测试-->
+
+    <!--var p1=new People("Windking");-->
+
+    <!--p1.Introduce();-->
+
+    <!--People.Run();-->
+
+    <!--p1.IntroduceChinese();-->
+<!--</script>-->
+<!--<script>-->
+    <!--function BaseClass(){-->
+        <!--this.ka = "nini";-->
+        <!--this.showmsg = function(){-->
+            <!--alert("老子是BaseClass");-->
+        <!--}-->
+    <!--}-->
+
+    <!--function  ExtendClass(){-->
+
+    <!--}-->
+
+    <!--ExtendClass.prototype = new BaseClass();-->
+    <!--var extendClass = new ExtendClass();-->
+    <!--extendClass.showmsg();-->
+    <!--alert(extendClass.ka);-->
+
+<!--</script>-->
+
+<script>
+    var obj={name:"dudu" ,ho:function(a){
+        alert("a="+a);
+    }};
+    var ss=function(){alert(this.name),alert(this)};
+    obj.showname=ss;
+
+
+    obj.showname();
+
+//
+//    obj.ho("dw");
+
+
+
+//    使用call()与apply()方法较之前设置this值的方法的好处是对象不需要与方法有任何的关系。
+    // 上个例子，对象o并没有将saycolor设置为自己的方法，却也可以使用这个函数。
+
+
+    var pp = {color:"red" , fu:function(){alert(this.color)}};
+    function  ppjj(a,b){
+        alert(this.color+"==呵呵a=="+a+"b=="+b);
+    }
+//    pp.fu();
+    ppjj.call(pp,2,34);
+    ppjj.apply(pp,[32,34]);
+
+
+
+    window.cololo = "de";
+    var ko = {cololo:"popopo"};
+    function colorH(){
+        alert(this.cololo);
+    }
+
+    var sayHello = colorH.bind(ko);
+
+    sayHello();
+    colorH();
+        /**
+
+
+
+    var func = function(a){
+        alert(a)
+        alert(this);
+    }
+    func(21);
+
+    // 与上面是等价的 但是也有区别 区别在于 上面的调用应该要写在函数定义后 不能写在函数定义前 否则会报函数未定义错误
+
+    function  func(a){
+        alert(a);
+    }
+    func(23);
+
+
+  //由于函数是对象，继承自object，因此函数名实际上是一个指向函数对象的指针。
+    var h = func;
+    func = null;
+   // func(32);//会报 它不是一个函数
+    h("dwc");
+
+//    1. 比如你定义一个函数void add（int a, int b），这里的a和b就是形参。
+//    2. 当你进行函数调用的时候，add（1, 2），这里的1和2就是实参。
+
+
+    function outer(){
+        inner();
+    }
+    function inner(){
+        alert(arguments.callee.caller);
+    }
+
+    outer();
+
+
+
+    function sum(num1,num2,num3)
+    {
+        alert(arguments.length);//方法2：内部对象调用 实参个数
+    }
+    sum(1,2,3,4);
+    alert(sum.length);//方法1：函数调用 形参个数
+
+
+    **/
+</script>
+</body>
+</html>
