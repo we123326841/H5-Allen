@@ -14,4 +14,8 @@ var Ellipse = new createjs.Shape();
 Ellipse.graphics.beginFill("#00ff00");
 Ellipse.graphics.drawEllipse(100,100,100,80);
 gameView.addChild(Ellipse);
+
+var circle =new Circle();
+
+gameView.addChild(circle);
 stage.update();

@@ -15,7 +15,9 @@
 //    test4();
    // test5();
 //    test6();
-    test7();
+   // test7();
+        test8();
+
     function test1(){
        function Person(){}
        Person.prototype.name="Nicholas";
@@ -165,6 +167,24 @@
 //        SubType.prototype = new SuperType();
         var s = new SubType();
         s.showMsg();
+    }
+
+    function test8(){
+        function  SuperType(){
+            console.log("老子是Super");
+            this.hume = "鸡巴";
+        }
+
+        function SubType(){
+            SuperType.call(this);
+            console.log("老子是Sub");
+
+        }
+
+        SubType.prototype = new SuperType();
+        var sub = new SubType();
+
+
     }
 </script>
 </body>
