@@ -3,8 +3,8 @@
  */
 var stage =new createjs.Stage("gameview");
 var circle = new createjs.Shape();
-stage.x = 150;
-stage.y = 150;
+//stage.x = 150;
+//stage.y = 150;
 var  i = 199;
 circle.graphics.beginFill("#FF0000").drawCircle(0,0,50);
 
