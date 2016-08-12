@@ -2,6 +2,7 @@
  * Created by wanghao on 16/8/11.
  */
 function Circle(){
+   // createjs.Shape.call(this);
     this.setCircleType = function(type){
         this.circleType = type;
         switch (type){
@@ -12,14 +13,16 @@ function Circle(){
                 this.setColor("#ff6600");
                 break;
             case Circle.TYPE_3:
+                //alert("呵呵");
                 this.setColor("#0000ff");
                 break;
         }
     }
 
     this.setColor = function(type){
+
         this.graphics.beginFill(type);
-        this.graphics.drawCircle(0,0,25);
+        this.graphics.drawCircle(50,50,25);
         this.graphics.endFill();
     }
 
@@ -28,7 +31,7 @@ function Circle(){
         return this.circleType;
     }
 
-    this.setColor(Circle.TYPE_1);
+    this.setCircleType(Circle.TYPE_1);
 
 
 }
