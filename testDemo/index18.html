@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+
+    //    huoi();
+
+
+    //    huop();
+
+
+    //        xixi();
+
+    //   xiji();
+
+
+//    xixixi();
+
+
+
+
+
+//    manimao();
+        meinv();
+    function manimao(){
+        Function.prototype.method1 = function(){
+            alert(typeof this);
+        }
+
+        function demo5(){
+
+        }
+
+        demo5.method1();
+        demo5.method1.method1();
+
+        var mydoc = new Function("alert('萨比')");
+        mydoc();
+        mydoc.method1();
+
+    }
+
+
+
+
+    function xixixi() {
+        var j = function () {
+            alert(21);
+        }();
+
+
+        function  ko(){
+
+        }
+
+        alert(typeof(Function))
+    ;
+    alert(typeof(new Function()));
+    alert(typeof(Array));
+    alert(typeof(Object));
+    alert(typeof(new Array()));
+    alert(typeof(new Date()));
+    alert(typeof(new Object()));
+        alert(typeof (new ko()));
+    }
+    function xiji() {
+        function MyCode() {
+            alert("西乡");
+        }
+
+
+        alert(typeof MyCode);
+        alert(typeof 21);
+
+        var pig = new Function("a", "b", "alert(a+b)");
+        alert(typeof pig);
+
+        pig(21, 2);
+
+        var ji = MyCode;
+        ji();
+        alert(typeof ji);
+        var oi = function () {
+            alert("哦");
+        }
+        alert(typeof oi);
+    }
+
+    function xixi() {
+        function MyClass() {
+//            this.name = "得得";
+        }
+
+        var cl = new MyClass();
+
+//        MyClass.prototype.name = "彪子";
+
+        MyClass.prototype = {
+            name: "我日你妈",
+            age: 10
+        }
+        alert(MyClass.prototype.name);
+        alert(cl.name);
+    }
+    function huop() {
+        function Ho() {
+
+        }
+
+        Ho.prototype.age = 19;
+
+
+        var io = new Ho();
+        io.age = 89;
+        alert(io.age);
+        alert(Ho.prototype.age);
+
+
+    }
+
+
+    function huoi() {
+        function huhu() {
+            alert("鸡巴")
+        }
+
+        huhu.prototype.name = "jini";
+//    alert(huhu.prototype.constructor);
+        // alert(huhu);
+        alert(huhu.prototype);
+        huhu.prototype.constructor();
+
+        var hu = new huhu();
+        alert(hu.__proto__);
+
+        alert(hu.__proto__ == huhu.prototype);
+        hu.__proto__.constructor();
+
+
+        var dde = huhu;
+
+        dde();
+
+    }
+
+
+    function meinv(){
+        function  ll(){
+
+        }
+
+        alert(typeof ll.prototype);
+
+        alert(typeof ll);
+        alert(typeof Function.prototype);
+        alert(typeof Object.prototype);
+    }
+
+</script>
+</body>
+</html>
