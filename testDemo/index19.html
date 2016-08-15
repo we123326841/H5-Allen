@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //    demo1();
+//        demo2();
+
+    //    demo3();
+//        demo4();
+        demo5();
+    function demo1(){
+        function MyDemo(){
+          //  alert(this);
+        }
+
+        var myDemo = new MyDemo();
+        console.log(typeof myDemo);
+        console.log(typeof MyDemo.prototype);
+        console.log(typeof myDemo.__proto__);
+        console.log(myDemo.__proto__ === MyDemo.prototype);
+        console.log(myDemo.__proto__ == MyDemo.prototype);
+        MyDemo.prototype.constructor();
+        console.log(MyDemo.prototype.constructor == MyDemo);
+        console.log(typeof MyDemo);
+        console.log(typeof MyDemo.prototype.constructor);
+    }
+
+
+    function  demo2(){
+        function MyDemo(){
+           // alert("哈哈");
+        }
+
+        console.log(MyDemo);
+        var ji = MyDemo;
+
+        console.log(typeof ji);
+        ji();
+
+
+        var nijita = new Function("a","b","return a + b")
+        console.log(nijita);
+        console.log(nijita(3,5));
+
+        Function.prototype.myType = function () {
+            alert(this);
+        }
+
+        MyDemo.myType();
+        nijita.myType.myType();
+
+    }
+
+    function demo3(){
+        function func(a,b){
+            alert(a);
+            alert(b);
+
+            for (var i = 0; i<arguments.length;i++){
+                alert(arguments[i]);
+            }
+        }
+
+        func(2,3,5,33);
+    }
+
+    function  demo4(){
+        function  jiba(){
+            console.log("哎哟我去");
+        }
+
+        function  myfunc(a){
+            a();
+        }
+
+
+        myfunc(jiba);
+    }
+
+
+    function  demo5(){
+        function SuperType(){
+            this.name = "忽忽";
+            console.log("父类");
+        }
+
+        SuperType.prototype.jiji = "哈哈哈";
+        var sup = new SuperType();
+        sup.constructor();
+        console.log(sup.__proto__.jiji);
+        console.log(sup.__proto__.name);
+
+        function  SubType(){
+            this.name = "鸡巴";
+            console.log("子类");
+        }
+
+        SubType.prototype = new SuperType();
+        var sub = new SubType();
+        console.log(SubType.prototype.constructor());
+        console.log(sub.__proto__.name);
+        console.log(sub.__proto__.jiji);
+
+
+
+
+    }
+</script>
+</body>
+</html>
