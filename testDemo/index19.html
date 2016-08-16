@@ -11,7 +11,12 @@
 
     //    demo3();
 //        demo4();
-        demo5();
+       // demo5();
+       //     demo6();
+          //  demo7();
+            demo8();
+//                demo9();
+//    demo10();
     function demo1(){
         function MyDemo(){
           //  alert(this);
@@ -108,6 +113,160 @@
 
 
 
+    }
+
+    function demo6(){
+        function SuperType(){
+         //   this.name = "sm";
+//            this.myFuc = function(){
+//                alert("sm jiba ");
+//            }
+        }
+        //        SuperType.prototype.name = "heihei";
+        var superType = new SuperType();
+        SuperType.prototype.myFuc = function(){
+            alert("彪子养的");
+        }
+        SuperType.prototype = {
+            name : "zhangsan",
+            age:20,
+            myFuc: function(){alert("ni de ji ba")}
+        }
+
+
+        console.log(superType.name);
+        superType.myFuc();
+
+
+    }
+
+    function demo7(){
+        function SuperType(){
+           // this.name  = "老师是父类";
+        }
+
+        function SubType(){
+           // this.name = "老师是子类";
+        }
+        SubType.prototype.name = "老子是子类pro";
+
+      //  SuperType.prototype.name = "老子是父类的pro";
+
+
+        SubType.prototype = new SuperType();
+        //相当于subType.proto = 父类的实例
+        var subType = new SubType();
+        console.log(subType.name);
+    }
+
+    function demo8(){
+        var i = 20;
+        function SuperType(){
+          //  this.name = "父类";
+            alert(this.__proto__ == SuperType.prototype);
+            i++
+            this.age = i +1;
+            SuperType.name ;
+            this.popo = function(a) {
+                SuperType.name = a;
+            }
+
+        }
+
+
+        function SubType(){
+          //  SuperType.call(this);
+        //    this.name = "我叫王浩年龄是"+ this.age;
+
+            this.setValue = function(){
+//                this.name = "彪子";
+                this.popo();
+            }
+        }
+
+        SubType.prototype = new SuperType();
+
+        var sub = new SubType();
+        sub.popo("宝马")
+        alert("age="+sub.age);
+        var sub2 = new SubType();
+        sub2.popo("奔驰");
+
+        console.log(sub.name);
+        console.log(sub2.name);
+        console.log(SubType.prototype.name);
+
+
+    }
+
+    function  demo9(){
+//        function SuperType() {
+//            this.colors = ["red", "green", "blue"];
+//        }
+//
+//        function SubType() {
+//            //继承了SuperType
+//            SuperType.call(this);
+//        }
+//
+//        var instance1 = new SubType();
+//        instance1.colors.push("black");
+//        alert(instance1.colors); //red,green,blue,black
+//
+//        var instance2 = new SubType();
+//        alert(instance2.colors); //red,green,blue
+
+
+
+        //借用构造函数
+        function SuperType(name){
+            this.name=name;
+            this.sayName=function(){
+                alert(this.name);
+            }
+        }
+        function SubType(name){
+            //借用超类的构造函数
+            SuperType.call(this,name);
+            this.age=22;
+        }
+        var instance=new SubType("dudu");
+        //alert(instance.name);//dudu
+        instance.sayName();
+    }
+
+
+    function  demo10(){
+        function Parent()
+        {
+
+            this.sayAge=function()
+            {
+                console.log(this.age);
+            }
+        }
+
+        Parent.prototype.sayParent=function()
+        {
+            alert("this is parentmethod!!!");
+        }
+
+        function Child(firstname)
+        {
+          //  Parent.call(this);
+            this.fname=firstname;
+            this.age=40;
+            this.saySomeThing=function()
+            {
+                console.log(this.fname);
+                this.sayAge();
+            }
+        }
+
+        Child.prototype=new  Parent();
+        var child=new Child("张");
+        child.saySomeThing();
+        child.sayParent();
     }
 </script>
 </body>

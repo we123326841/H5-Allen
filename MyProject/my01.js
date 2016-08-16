@@ -24,7 +24,7 @@ function addCircles(){
             circle.indexY = indexY;
            circle.x = (indexY%2)==0?55*indexX:20+55*indexX;
             circle.y = 55*indexY;
-            if (indexY==3&&indexX==3){
+            if (indexY==8&&indexX==8){
                 //alert("鸡巴毛");
                 circle.setCircleType(Circle.TYPE_3);
             }
