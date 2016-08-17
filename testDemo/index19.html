@@ -14,9 +14,11 @@
        // demo5();
        //     demo6();
           //  demo7();
-            demo8();
+//            demo8();
 //                demo9();
 //    demo10();
+  //  demo11();
+        demo12();
     function demo1(){
         function MyDemo(){
           //  alert(this);
@@ -267,6 +269,57 @@
         var child=new Child("张");
         child.saySomeThing();
         child.sayParent();
+    }
+
+    function demo11(){
+        //所有对象 都是先从实例本身去寻找变量或者方法,如果没有就再从__proto__寻找 找不到 就继续从__proto__的__proto__寻找
+        function SuperType(){
+            this.name = "父类";
+
+        }
+
+//        SuperType.prototype.age = 21;
+
+        var superType = new SuperType();
+        SuperType.prototype = {
+            say: function () {
+                console.log("老子说...");
+            }
+        }
+        console.log(superType.name);
+        console.log(superType.age);
+//        superType.say();
+
+        Object.prototype.jiji = "鸡鸡";
+
+        console.log(superType.jiji);
+
+        var myFuc = new  Function("a","b","alert(a+b)");
+        Function.prototype.ko = "得得";
+        function  subType(){
+
+        }
+        console.log(myFuc.ko);
+        console.log(subType.ko);
+
+    }
+
+    function  demo12(){
+        function SuperType(){
+            this.name = "你麻痹";
+        }
+
+        SuperType.prototype.jiji = "哈哈啊";
+     //   Object.prototype.jiji = "呼呼";
+
+       // var superType = new SuperType();
+        //console.log(superType.jiji);
+        function SubType(){
+
+        }
+        SubType.prototype = new SuperType();
+        var subType = new SubType();
+        console.log(subType.jiji);
     }
 </script>
 </body>
