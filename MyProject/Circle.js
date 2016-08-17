@@ -20,7 +20,7 @@ function Circle(){
     }
 
     this.setColor = function(type){
-
+        this.graphics.clear();
         this.graphics.beginFill(type);
         this.graphics.drawCircle(50,50,25);
         this.graphics.endFill();
