@@ -19,13 +19,58 @@ var MOVE_NONE = -1,MOVE_LEFT = 0,MOVE_UP_LEFT = 1,MOVE_UP_RIGHT = 2,MOVE_RIGHT =
 
 
 function typeEvent(event){
-    event.target.setCircleType(Circle.TYPE_2);
+    if (event.target.getCircleType() != Circle.TYPE_3) {
+        event.target.setCircleType(Circle.TYPE_2);
+
+    }else{
+        return;
+    }
     console.log("indexY=="+currentCat.indexX+",indexX=="+currentCat.indexX);
     if (currentCat.indexX == 0 || currentCat.indexX == 8 || currentCat.indexY == 0 || currentCat.indexY ==8){
         alert("游戏结束");
+        return;
     }
 
     var dir = getMoveDir(currentCat);
+
+    switch (dir){
+        case MOVE_LEFT:
+            currentCat.setCircleType(Circle.TYPE_1);
+            currentCat = circles[currentCat.indexY][currentCat.indexX - 1];
+            currentCat.setCircleType(Circle.TYPE_3);
+            break;
+
+        case MOVE_UP_LEFT:
+            currentCat.setCircleType(Circle.TYPE_1);
+            currentCat = circles[currentCat.indexY - 1][currentCat.indexY%2?currentCat.indexX:currentCat.indexX-1];
+            currentCat.setCircleType(Circle.TYPE_3);
+            break;
+
+        case MOVE_UP_RIGHT:
+            currentCat.setCircleType(Circle.TYPE_1);
+            currentCat = circles[currentCat.indexY -1][currentCat.indexY%2?currentCat.indexX+1:currentCat.indexX];
+            currentCat.setCircleType(Circle.TYPE_3);
+            break;
+
+        case MOVE_RIGHT:
+            currentCat.setCircleType(Circle.TYPE_1);
+            currentCat = circles[currentCat.indexY][currentCat.indexX + 1];
+            currentCat.setCircleType(Circle.TYPE_3);
+            break;
+        case MOVE_DOWN_RIGHT:
+            currentCat.setCircleType(Circle.TYPE_1);
+            currentCat = circles[currentCat.indexY + 1][currentCat.indexY%2?currentCat.indexX+1:currentCat.indexX];
+            currentCat.setCircleType(Circle.TYPE_3);
+            break;
+        case MOVE_DOWN_LEFT:
+            currentCat.setCircleType(Circle.TYPE_1);
+            currentCat = circles[currentCat.indexY+1][currentCat.indexY%2?currentCat.indexX:currentCat.indexX-1];
+            currentCat.setCircleType(Circle.TYPE_3);
+
+            break;
+        default :
+            alert("游戏结束");
+    }
     //var leftCircle = circles[currentCat.indexY][currentCat.indexX-1];
     //var rightCircle = circles[currentCat.indexY][currentCat.indexX+1];
     //var leftTopCircle = circles[currentCat.indexY-1][currentCat.indexX-1];
@@ -88,7 +133,7 @@ function getMoveDir(cat){
     can = true;
     var x = cat.indexX,y = cat.indexY;
     while (true){
-        if (circles[y][x].getCircleType() == circle.TYPE_2){
+        if (circles[y][x].getCircleType() == Circle.TYPE_2){
             can = false;
             distanceMap[MOVE_UP_LEFT] = cat.indexY - y;
             break;
@@ -110,7 +155,7 @@ function getMoveDir(cat){
     can = true;
     x = cat.indexX, y = cat.indexY;
     while(true){
-        if (circles[y][x].getCircleType()==circle.TYPE_2){
+        if (circles[y][x].getCircleType()==Circle.TYPE_2){
             can = false;
             distanceMap[MOVE_UP_RIGHT] = cat.indexY - y;
             break;
@@ -179,8 +224,36 @@ function getMoveDir(cat){
             break;
         }
 
+        if(y%2==0){
+            x--;
+        }
+        y++;
+
+        if(x<0||y>8){
+            break;
+        }
+
         
     }
+
+    if(can){
+        return MOVE_DOWN_LEFT;
+    }
+
+    var maxDir = -1, maxValue = -1;
+    for(var dir = 0; dir < distanceMap.length; dir++){
+        if (distanceMap[dir] > maxValue){
+            maxValue = distanceMap[dir];
+            maxDir = dir;
+        }
+    }
+
+    if (maxValue>1){
+        return maxDir;
+    }else{
+        return MOVE_NONE;
+    }
+
 
 
 }
@@ -208,6 +281,8 @@ function addCircles(){
                 //alert("鸡巴毛");
                 circle.setCircleType(Circle.TYPE_3);
                 currentCat = circle;
+            }else if(Math.random()<0.1){
+                circle.setCircleType(Circle.TYPE_2);
             }
             if (circle.getCircleType() != Circle.TYPE_3) {
                 circle.addEventListener("click", huhur);
