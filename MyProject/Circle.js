@@ -37,9 +37,9 @@ function Circle(){
 }
 
 
-Circle.TYPE_1 = 1;
-Circle.TYPE_2 = 2;
-Circle.TYPE_3 = 3;
+Circle.TYPE_1 = 1;//表示未被选中
+Circle.TYPE_2 = 2;//表示选中
+Circle.TYPE_3 = 3;//表示cat的位置
 
 Circle.prototype = new createjs.Shape();
 
