@@ -18,7 +18,8 @@
 //                demo9();
 //    demo10();
   //  demo11();
-        demo12();
+      //  demo12();
+    demo13();
     function demo1(){
         function MyDemo(){
           //  alert(this);
@@ -320,6 +321,37 @@
         SubType.prototype = new SuperType();
         var subType = new SubType();
         console.log(subType.jiji);
+    }
+
+
+    function demo13(){
+
+
+        var myFuc = new Function("a","b","alert(a+b)");
+
+        myFuc(21,32);
+
+        function myfuc1(){
+            alert("彪子样的");
+        }
+
+        var myfuc2 = myfuc1;
+        myfuc2();
+
+        var myFunc3 = function(){
+            alert("什么逼");
+        }
+
+        myFunc3();
+
+//        myColor(21,function(){
+//            alert("鸡巴");
+//        });
+//
+//
+//        function  myColor(n,a){
+//            a("事件"+n);
+//        }
     }
 </script>
 </body>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+//    var hehe = {
+//        name:"allen",
+//        age:12,
+//        p: function () {
+//
+//            alert(this == hehe
+//            )
+//            ;
+//        }
+//
+//    }
+//
+//    hehe.p();
+//    alert(this == window);
+
+//    demo();
+//
+//    function Haha() {
+//
+//        this.i = function () {
+//            this.demo1();
+//        }
+//
+//        this.demo1 = function () {
+//
+//            alert(this);
+//        }
+//    }
+//
+//    var s = new Haha();
+//    s.i();
+
+
+//    function  hahahahah(){
+//        alert(this == window);
+//
+//    }
+//
+//
+//
+//    hahahahah();//等效于
+//    this.hahahahah();//等效于
+//    window.hahahahah();
+    //var a=2;
+    //var b=a;
+
+//    var a = [2,4,6,8];
+//    var  b = a;
+//
+//    alert(b.length);
+//    a.push(2);
+//    alert(b.length);
+
+
+    function  demo(){
+        this.legth = 4;
+    }
+
+    var a = new demo();
+    var b = a;
+    alert(b.legth);
+a.legth= 5;
+    alert(b.legth);
+
+
+
+
+</script>
+</body>
+</html>

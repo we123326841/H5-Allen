@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+
+    demo4();
+
+    function demo1() {
+
+
+        function show() {
+
+            alert(this == myClass);
+        }
+
+        function MyClass() {
+
+            this.setColor = function () {
+                alert("你妹");
+            }
+
+
+        }
+
+
+//        function  Mydddd(){
+//
+//            this.hehe = show;
+//        }
+
+
+        var myClass = new MyClass();
+        //  myClass.showMyMethord();
+        show.call(myClass);
+
+        // myClass.show();
+
+        //  show();
+        //  var ddd = new Mydddd();
+        //  ddd.hehe();
+
+        // var myClass2 = new MyClass();
+        // myClass2.showMyMethord();
+
+    }
+
+
+    function demo2() {
+//        function func(name, id) {
+//            console.log(name, id, this);
+//        }
+
+        var obj = "Look here";
+
+        var hehe = func.bind(obj, "bind", "-->");
+
+
+        function func(name, id) {
+            console.log(this);
+        }
+
+
+      // hehe();// obj.hehe();
+
+     function  haha(){
+         this.xixi = hehe;
+     }
+
+        var v = new haha();
+
+        hehe.call(v);
+
+
+    }
+
+
+
+
+   function demo3(){
+//        function func() {
+//            console.log(this);
+//        }
+//        var obj = "Look here";
+//
+//        var hehe = func.bind(obj);
+//
+//
+//
+//
+//       function sisi(){
+//           console.log(this);
+//       }
+//
+//
+//        // hehe();// obj.hehe();
+//
+//        function  haha(){
+//            this.xixi = hehe;
+//        }
+//
+//        var v = new haha();
+//
+//
+//       console.log(v);
+//       // v 是haha这个函数的对象
+//       //控制台里面打印的haha 指的就是 haha这个函数的对象
+//       function sisi(){
+//           console.log(this);
+//       }
+//        hehe.call(v);
+//        sisi.call(v);
+
+
+//       function  HUhu(a){
+//           this.a = a;
+//       }
+//
+//       var iiii = new HUhu("allen");
+//       console.log(iiii);
+
+
+       function SuperType(name,age){
+           this.name = name;
+           this.age = age;
+           this.showMsg = function (msg) {
+               console.log(msg);
+           }
+       }
+
+       function  SubType(){
+f
+       }
+       Object.setPropertyOf(SubType,SuperType);
+
+
+       var sub = new SubType();
+       sub.showMsg("信息");
+
+    }
+
+
+    function  demo4(){
+        function Flyer(name,speed){
+            this.name=name,
+                    this.speed=speed
+        }
+
+        function Plane(name,speed,score){
+//            Flyer.apply(this,arguments);等效于
+            Flyer.call(this,name,speed,score);
+            this.score=score
+        }
+        Flyer.prototype={
+            fly:function(){
+                console.log(this.name+"以时速"+this.speed+"飞行");
+            }
+        }
+        Plane.prototype={
+            getScore:function(){
+                console.log("击落敌机,得"+this.score+"分");
+            }
+        }
+        Object.setPrototypeOf(Plane.prototype,Flyer.prototype);
+        //等效于
+//        Plane.prototype = new Flyer();
+        var  p = new Plane("飞机","80m/s","100");
+        p.fly();
+        p.getScore();
+        debugger;
+
+    }
+
+
+    function demo(){
+        
+    }
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
