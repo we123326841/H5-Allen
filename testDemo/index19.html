@@ -19,7 +19,8 @@
 //    demo10();
   //  demo11();
       //  demo12();
-    demo13();
+//    demo13();
+    demo14();
     function demo1(){
         function MyDemo(){
           //  alert(this);
@@ -352,6 +353,36 @@
 //        function  myColor(n,a){
 //            a("事件"+n);
 //        }
+    }
+
+    function demo14(){
+        var func = new Function("a","b","alert(a+b)");
+        func(21,32);
+
+
+        var d = function(b){
+            alert(arguments.length);
+        }
+
+        d(3);
+
+        function myDemo(){
+            alert("什么鸡巴");
+        }
+
+        var my  = myDemo;
+        my();
+
+        function demor(a){
+            a(21,43);
+        }
+
+        demor(function(d){
+            alert(d)
+        });
+        //MJServer 里面搭建服务器 访问本地服务器localhost:8080  可以通过这个http://localhost:8080/MJServer/resources/images/minion_01.png访问服务器图片
+        //通过http://localhost:8080/MJServer/resources/videos/minion_01.mp4访问服务器视频
+        //通过http://localhost:8080/MJServer/resources/txts/itcast.txt 访问服务器txt文档
     }
 </script>
 </body>

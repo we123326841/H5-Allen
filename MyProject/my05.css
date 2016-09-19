@@ -1,0 +1,99 @@
+body,p,ul,button,input{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #f1f1f1;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+ul{
+    list-style: none;
+}
+
+i{
+    font-style: normal;
+}
+
+.ucenter-left .ucenter-l-column{
+    margin: 30px;
+    display: inline-block;
+}
+
+.ucenter-l-column .ucenter-l-column-block li{
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    line-height: 1.2em;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.ucenter-l-column .ucenter-l-column-block li:hover , .ucenter-l-column .ucenter-l-column-block li:active{
+    background-color: #f1f1f1;
+    border-radius: 2px;
+}
+
+
+.ucenter-l-column .ucenter-l-column-block li a{
+    color: #101213;
+}
+
+.w-1000{
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.ucenter .ucenter-left{
+    float: left;
+    width: 226px;
+    min-height: 760px;
+    background: #fff;
+}
+
+.ucenter-left .ucenter-l-header{
+    text-align: center;
+    margin: 20px;
+}
+
+.ucenter-l-header .ucenter-headericon{
+    margin: 0px auto;
+    width: 140px;
+    height: 140px;
+
+}
+
+.ucenter-headericon img{
+    border-radius: 70px ;
+}
+
+.ucenter-l-header .ucenter-name{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.8em;
+}
+
+.ucenter-l-header .ucenter-viptime{
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+.orinagebtn{
+    border: 1px solid #ff7600;
+    padding: 5px 20px;
+    color: #ff7600;
+    border-radius:  5px;
+}
+
+.orinagebtn:hover{
+    background: #ff7600;
+    color: #000;
+}
