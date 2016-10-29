@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="animate.css">
+    <style>
+        #my_btn{
+            background-color: #ffff00;
+            height: 100px;
+            width: 100px;;
+        }
+    </style>
+</head>
+<body>
+<h1>jjjj</h1>
+<button id="my_btn"></button>
+
+<div onclick="doaction(this);">div1</div>
+<div onclick="doaction(this);">div2</div>
+</body>
+<script>
+
+
+
+
+    function doaction(a){
+        alert(a.innerHTML);
+        alert(this);
+
+    }
+
+    var obj = {
+        name: "nimabi "
+    };
+
+    doaction.call(obj);
+
+
+
+
+    document.getElementsByTagName("h1")[0].onclick = function(jiba){
+       alert(arguments.length);
+
+    console.log(jiba);
+        alert("这是为什么:"+this);
+
+        for (var i = 0 ; i< arguments.length;i++){
+            console.log(arguments[i]);
+
+        }
+    }
+
+    var h1 = document.getElementsByTagName("h1")[0];
+    var open = true;
+    if (open) {
+
+
+        h1.onmouseover = function () {
+            console.log("...");
+            // h1.className = "animated tada";
+          //  open = false;
+        }
+
+    } else {
+
+
+        h1.onmouseout = function () {
+            console.log("鼠标移除了");
+            h1.className = "";
+         //   open = true;
+        }
+
+    }
+
+    console.log("end");
+
+    document.getElementById("my_btn").onclick = function(){
+        if (open){
+            open = false;
+            this.style.backgroundColor = "#FF0000";
+        }else{
+            open = true;
+            this.style.backgroundColor = "#ffff00";
+
+        }
+
+    }
+
+
+    function demo5(a,b,c){
+
+        for (var i = 0 arguments.length,i++){
+
+        }
+    }
+
+    demo5(4,5,6);
+
+
+</script>
+</html>

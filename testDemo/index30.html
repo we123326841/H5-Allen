@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function doaction(){
+//        alert(a.innerHTML);
+        alert(this);
+
+    }
+
+    var obj = {
+        name: "nimabi "
+    };
+
+    doaction.call(obj);
+
+
+
+    setInterval(function(){
+        console.log("外层this=="+this);
+       function fn(){
+           var a=1;
+           a++;
+           console.log("内层this=="+this.name);
+       }
+        fn.call(obj);
+       // fn();
+    },1000)
+</script>
+</body>
+</html>

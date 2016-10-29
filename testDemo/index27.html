@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var datamodel = {
+        table : [],
+        tree : {}
+    };
+
+    (function(dm){
+        for(var i = 0; i < dm.table.rows; i++){
+            var row = dm.table.rows[i];
+            for(var j = 0; j < row.cells; i++){
+                drawCell(i, j);
+            }
+        }
+
+//build dm.tree
+    })(datamodel);
+
+
+
+
+    //
+    var datamodel = {
+        table : [],
+        tree : {}
+    };
+
+
+
+   var a  = function(dm){
+        for(var i = 0; i < dm.table.rows; i++){
+            var row = dm.table.rows[i];
+            for(var j = 0; j < row.cells; i++){
+                drawCell(i, j);
+            }
+        }
+
+//build dm.tree
+    }
+
+    a.(datamodel);
+
+
+
+
+    var b = {
+        a: function(){
+            alert("nimeide ");
+        }
+
+    }
+
+
+    b.a();
+
+
+    function demo(){
+
+        var a = 19;
+    }
+
+
+    {
+
+        {}
+
+    }
+
+    demo();
+</script>
+</body>
+</html>
